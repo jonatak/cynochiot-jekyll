@@ -3,18 +3,39 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    {%- include header.html -%}
+    <div id="wrapper">
+        {%- include header.html -%}
 
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
-      </div>
+        {{ content }}
+
+        {%- include footer.html -%}
+
     </div>
 
-    {%- include footer.html -%}
+    <!-- Core JavaScript Files -->
+    <script src="{{ "assets/js/jquery-1.10.2.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/bootstrap/bootstrap.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/modernizr.custom.js" | relative_url }}"></script>
 
+    <!-- Plugin JavaScript Files -->
+    <script src="{{ "assets/js/plugins/jquery.easing/jquery.easing.1.3.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/jquery.fitvids/jquery.fitvids.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/jquery.tubular/jquery.tubular.1.0.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/owl.carousel/owl.carousel.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/scrollReveal/scrollReveal.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/stellar/stellar.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/SmoothScroll/SmoothScroll.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/contact_me.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/plugins/isotope/isotope.pkgd.min.js" | relative_url }}"></script>
+
+    <!-- Spectrum JavaScript Files -->
+    <script src="{{ "assets/js/spectrum.nav.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/spectrum.js" | relative_url }}"></script>
   </body>
 
 </html>
