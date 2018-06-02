@@ -1,7 +1,7 @@
 ---
 title: Préparer l'arrivée d'un chiot
 image: assets/img/post/zoom_shadow.jpeg
-author: Jonathan
+author: jonathan
 excerpt: Ca y est, cela fait des mois que vous y pensez, vous vous êtes préparé, et vous vous sentez enfin prêt!! Vous allez avoir un chiot ! Et maintenant vous commencez à paniquer, votre chiot va bientôt arrivé, et vous vous sentez perdu.
 ---
 

@@ -16,7 +16,7 @@
 title: CynoChiot - Les Petites Pattes
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Bonjour, venez découvrire la Maternelle pour chiot, avec balade éducative, sociabilisation et éducation tout en positif à Fontainebleau.
+  Bonjour, venez découvrire la Maternelle pour chiot, avec balade éducative, socialisation et éducation tout en positif à Fontainebleau.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cynochiot.fr" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -24,7 +24,7 @@ url: "https://www.cynochiot.fr" # the base hostname & protocol for your site, e.
 site_name: CynoChiot
 lang: fr_FR
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+repository: "jonatak/cynochiot-jekyll"
 
 social:
   name: CynoChiot
@@ -32,6 +32,22 @@ social:
     - https://www.instagram.com/jonathan_canitrust
     - https://www.instagram.com/camille_cynologiste/
     - https://www.facebook.com/cynopoil/
+
+authors:
+  camille:
+    name: Camille Sulpice
+    display_name: Camille
+    email: cynopoil@gmail.com
+    web: https://cynopoil.jimdo.com/
+    facebook: https://www.facebook.com/cynopoil
+  jonathan:
+    name: Jonathan Billaud
+    display_name: Jonathan
+    email: jonathan.billaud@gmail.com
+    web: https://www.canitrust.fr
+
+seo:
+  type: Organization
 
 # Build settings
 plugins:
