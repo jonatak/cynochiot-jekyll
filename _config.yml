@@ -46,9 +46,6 @@ authors:
     email: jonathan.billaud@gmail.com
     web: https://www.canitrust.fr
 
-seo:
-  type: Organization
-
 # Build settings
 plugins:
   - jekyll-feed
