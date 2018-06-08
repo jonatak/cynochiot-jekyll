@@ -26,6 +26,8 @@ lang: fr_FR
 
 repository: "jonatak/cynochiot-jekyll"
 
+logo: /assets/img/logo_cynochiot.png
+
 social:
   name: CynoChiot
   links:
