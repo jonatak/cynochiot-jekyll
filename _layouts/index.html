@@ -223,7 +223,7 @@
                   </div>
                   <div class="row blog-row">
                       {%- if site.posts.size > 0 -%}
-                      {%- for post in site.posts -%}
+                      {%- for post in site.posts limit:3 -%}
                       <div class="col-md-4 blog-col">
                           <a href="{{ post.url | relative_url }}" class="blog-preview-img">
                               <div class="caption">
@@ -252,6 +252,11 @@
                       </div>
                       {%- endfor -%}
                       {%- endif -%}
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12 text-center">
+                          <a href="{{site.url | append: "/blog.html"}}">Voir tout les articles</a>
+                      </div>
                   </div>
               </div>
         </section>

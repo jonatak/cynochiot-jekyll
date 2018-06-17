@@ -60,4 +60,4 @@ Il est très important de définir les règles dès le début, parce qu'une fois
 
 __Voilà! Vous êtes prêts à recevoir votre nouveau compagnon.
 Mais ne vous reposez pas tout de suite, le plus dur est à venir…
-Il va falloir maintenant que l'on parle de l'éducation de cette boule de poils !__
+Il va falloir maintenant que l'on parle de [l'éducation de cette boule de poils]({% post_url 2018-06-16-les-bases-de-l-education-d-un-chiot %}) !__
