@@ -35,9 +35,13 @@ layout: default
                   <hr class="primary">
               </div>
           </div>
+          {%- if site.posts.size > 0 -%}
+          {%- for post in site.posts -%}
+          {% capture modulo0 %}{{forloop.index0 | modulo:3}}{% endcapture %}
+          {% capture modulo %}{{forloop.index | modulo:3}}{% endcapture %}
+          {% if forloop.first == true or modulo0 == '0'%}
           <div class="row blog-row">
-              {%- if site.posts.size > 0 -%}
-              {%- for post in site.posts -%}
+          {% endif %}
               <div class="col-md-4 blog-col">
                   <a href="{{ post.url | relative_url }}" class="blog-preview-img">
                       <div class="caption">
@@ -64,8 +68,10 @@ layout: default
                       </ul>
                   </div>
               </div>
-              {%- endfor -%}
-              {%- endif -%}
+          {% if forloop.last == true or modulo == '0'%}
           </div>
+          {% endif %}
+          {%- endfor -%}
+          {%- endif -%}
       </div>
 </section>

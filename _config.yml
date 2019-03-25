@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CynoChiot - Les Petites Pattes
+title: CynoChiot
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Bonjour, venez découvrire la Maternelle pour chiot, avec balade éducative, socialisation et éducation tout en positif à Fontainebleau.
@@ -27,13 +27,6 @@ lang: fr_FR
 repository: "jonatak/cynochiot-jekyll"
 
 logo: /assets/img/logo_cynochiot.png
-
-social:
-  name: CynoChiot
-  links:
-    - https://www.instagram.com/jonathan_canitrust
-    - https://www.instagram.com/camille_cynologiste/
-    - https://www.facebook.com/cynopoil/
 
 authors:
   camille:

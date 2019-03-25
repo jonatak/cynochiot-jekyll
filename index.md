@@ -1,4 +1,4 @@
 ---
 layout: index
-title: CynoChiot - Maternelle pour chiot
+title: L'Éducation de votre Chiot à Fontainebleau
 ---

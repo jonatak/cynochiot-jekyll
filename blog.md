@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Le Blog de Cynochiot
+title: Le Blog
 ---

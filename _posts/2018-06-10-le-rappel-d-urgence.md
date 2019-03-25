@@ -2,6 +2,7 @@
 title: Le rappel d’urgence
 image: assets/img/post/zoom_paddy.jpg
 author: camille
+excerpt: Votre chien a du rappel mais vous vous êtes déjà retrouvé dans des situations où il aurait fallu que votre chien revienne vite car la situation était dangereuse pour lui et votre rappel n’a pas fonctionné ou votre chien a pris du temps ? Cet article est fait pour vous !
 ---
 
 Votre chien a du rappel mais vous vous êtes déjà retrouvé dans des situations où il aurait fallu que votre chien revienne vite car la situation était dangereuse pour lui et votre rappel n’a pas fonctionné ou votre chien a pris du temps ? Cet article est fait pour vous !
